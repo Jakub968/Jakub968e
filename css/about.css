@@ -1,0 +1,329 @@
+@import url("https://fonts.cdnfonts.com/css/mont");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: #101010;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*###########################################################################################  */
+/*#########################################mobile############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 480px) {
+	#header {
+		width: 100%;
+		height: 10%;
+		padding: 0 5%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul {
+		width: 70%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul li a {
+		font-size: 10px;
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+	}
+
+	#header img {
+		height: 30%;
+	}
+
+	#main {
+		width: 100%;
+		height: 150%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.left {
+		width: 100%;
+		height: 70%;
+		box-shadow: 0 20px 30px black;
+		z-index: 2;
+		padding-left: 5%;
+	}
+
+	.left h1 {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		font-size: 100px;
+		font-weight: 500;
+	}
+
+	.left p:nth-child(2) {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.left p:last-child {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		width: 60%;
+		margin-top: 50px;
+	}
+
+	.right {
+		width: 100%;
+		height: 30%;
+		background-image: url(../images/_DSC0279.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################tablet############################################  */
+/*###########################################################################################  */
+
+@media screen and (max-width: 1024px) and (min-width: 481px) {
+	#header {
+		width: 100%;
+		height: 10%;
+		padding: 0 5%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul li a {
+		font-size: 15px;
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+	}
+
+	#header img {
+		height: 50%;
+	}
+
+	#main {
+		width: 100%;
+		height: 90%;
+		display: flex;
+	}
+
+	.left {
+		width: 65%;
+		height: 100%;
+		box-shadow: 0 20px 30px black;
+		z-index: 2;
+		padding-left: 5%;
+	}
+
+	.left h1 {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		font-size: 100px;
+		font-weight: 500;
+	}
+
+	.left p:nth-child(2) {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.left p:last-child {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		width: 60%;
+		margin-top: 50px;
+	}
+
+	.right {
+		width: 35%;
+		height: 100%;
+		background-image: url(../images/_DSC0279.jpg);
+		background-size: cover;
+		background-position: -200px;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################notebook##########################################  */
+/*###########################################################################################  */
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	#header {
+		width: 100%;
+		height: 10%;
+		padding: 0 5%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul li a {
+		font-size: 15px;
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+	}
+
+	#header img {
+		height: 50%;
+	}
+
+	#main {
+		width: 100%;
+		height: 90%;
+		display: flex;
+	}
+
+	.left {
+		width: 65%;
+		height: 100%;
+		box-shadow: 0 20px 30px black;
+		z-index: 2;
+		padding-left: 5%;
+	}
+
+	.left h1 {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		font-size: 100px;
+		font-weight: 500;
+	}
+
+	.left p:nth-child(2) {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.left p:last-child {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		width: 60%;
+		margin-top: 50px;
+	}
+
+	.right {
+		width: 35%;
+		height: 100%;
+		background-image: url(../images/_DSC0279.jpg);
+		background-size: cover;
+		background-position: -200px;
+	}
+}
+
+/*###########################################################################################  */
+/*#########################################pc##########################################  */
+/*###########################################################################################  */
+
+@media screen and (min-width: 1281px) {
+	#header {
+		width: 100%;
+		height: 10%;
+		padding: 0 5%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#header ul li a {
+		font-size: 15px;
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+	}
+
+	#header img {
+		height: 50%;
+	}
+
+	#main {
+		width: 100%;
+		height: 90%;
+		display: flex;
+	}
+
+	.left {
+		width: 65%;
+		height: 100%;
+		box-shadow: 0 20px 30px black;
+		z-index: 2;
+		padding-left: 5%;
+	}
+
+	.left h1 {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		font-size: 100px;
+		font-weight: 500;
+	}
+
+	.left p:nth-child(2) {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		opacity: 0.5;
+	}
+
+	.left p:last-child {
+		font-family: "Mont DEMO", sans-serif;
+		color: white;
+		width: 60%;
+		margin-top: 50px;
+	}
+
+	.right {
+		width: 35%;
+		height: 100%;
+		background-image: url(../images/_DSC0279.jpg);
+		background-size: cover;
+		background-position: -200px;
+	}
+}
