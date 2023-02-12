@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap%27");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.836);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+#header {
+	width: 100%;
+	height: 10%;
+	outline: 2px solid black;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+	background-color: rgb(230, 230, 230);
+}
+
+#header ul {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header ul li {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: black;
+}
+
+#header img {
+	height: 100%;
+}
+
+#main {
+	width: 100%;
+	height: 90%;
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h3 {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.left {
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: rgb(230, 230, 230);
+	padding-top: 10px;
+	position: relative;
+}
+
+.number,
+.mail {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 10px;
+}
+
+.number div,
+.mail div {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.836);
+}
+
+.number p,
+.mail p {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+}
+
+.number div img,
+.mail div img {
+	width: 15px;
+}
+
+.socialMedia {
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0 0 10px 10px;
+}
+
+.socialMedia a {
+	width: 25px;
+	height: 25px;
+}
+
+.socialMedia div {
+	width: 25px;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 0.836);
+	border-radius: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialMedia div img {
+	width: 13px;
+}
+
+.right {
+	width: 80%;
+	height: 80%;
+	/* border-top: 2px solid white; */
+	/* border-bottom: 2px solid white; */
+	border-right: 2px solid white;
+}
+
+.right form {
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
+.username {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 40px;
+	margin-top: 10px;
+}
+
+.name {
+	width: 40%;
+}
+
+.name p {
+	font-family: "Poppins", sans-serif;
+
+	color: rgb(230, 230, 230);
+}
+
+.name input[type="text"] {
+	width: 100%;
+	height: 20px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	padding-bottom: 10px;
+}
+
+::placeholder {
+	color: rgba(255, 255, 255, 0.733);
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+}
+
+.user-contact {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 40px;
+}
+
+.contact {
+	width: 40%;
+	margin-top: 30px;
+}
+
+.contact p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+}
+
+.contact input[type="text"] {
+	width: 100%;
+	height: 20px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	padding-bottom: 10px;
+}
+
+.services {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.services p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.services .box p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 0;
+}
+
+.checkbox {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.box {
+	width: 14%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.box input {
+	margin-right: 10px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+
+.message {
+	width: 100%;
+	height: 150px;
+	margin: 0 40px;
+	margin-top: 30px;
+	position: relative;
+}
+
+.message p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	margin-bottom: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.message textarea {
+	width: 50%;
+	height: 100px;
+	border: 2px solid white;
+	background-color: transparent;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.message input {
+	width: 100px;
+	height: 30px;
+	border: 2px solid white;
+	background-color: rgb(230, 230, 230);
+	color: rgba(0, 0, 0, 0.836);
+	font-family: "Poppins", sans-serif;
+	position: absolute;
+	bottom: 0;
+	left: 55%;
+}
+
+input[type="text"]:focus,
+input[type="email"] {
+	outline: none;
+	border-bottom: 2px solid rgb(179, 3, 18);
+	transition: 0.2s;
+}
+
+textarea:focus {
+	outline: none;
+	border: 2px solid rgb(179, 3, 18);
+	transition: 0.2s;
+}
+
+#footer {
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	padding: 10px 5% 0 5%;
+}
+
+.footer-website {
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding: 20px 0;
+	position: relative;
+}
+
+.footer-website img {
+	width: 30%;
+}
+
+.social-sites {
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 20px;
+}
+
+.social-sites div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+}
+
+.social-sites p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.social-sites img {
+	width: 20px;
+}
+
+.footer-links {
+	width: 60%;
+	height: 100%;
+	float: right;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-links div {
+	width: 30%;
+	height: 100%;
+}
+
+.footer-links div p {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.footer-links div ul {
+	width: 70%;
+	height: 70%;
+	margin-top: 20px;
+}
+
+.footer-links div ul li {
+	font-family: "Poppins", sans-serif;
+	color: rgb(230, 230, 230);
+	font-size: 14px;
+	margin: 15px 0;
+}
