@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,16 +25,125 @@
                 <a class="lists" href="technology.html">Technológie</a>
             </li>
             <li>
-                <a class="lists" href="">Kontakt</a>
+                <a class="lists" href="contact.html">Kontakt</a>
             </li>
         </ul>
 
       
 
     </header>
+    <div class="mobileMenu">
+        <img class="X" src="images/white-x-png-5.png" alt="">
+
+        <p><a href="index.html">Domov</a></p>
+        <p><a href="about.html">O nás</a></p>
+        <p><a href="">Služby</a></p>
+        <p><a href="technology.html">Technológie</a></p>
+        <p><a href="contact.html">Kontakt</a></p>
+     </div>
+    
     <div id="banner">
+        <div class="cover"></div>
+        <h1>Technológie</h1>
+        <p>CNC obrábacie centrum HAAS VF2-SSYT 4-osé <br> <br>
+            Fiber laser Raycus 30W 200*200mm <br><br>
+            3D tlačiareň Bambu Lab X1 Carbon <br><br>
+            Pásová píla Optimum <br><br>
+
+
+        </p>
 
     </div>
+    <div id="services">
+        <div class="cnc">
+            <div class="left">
+                <img src="images/DSC03450.JPG" alt="">
+
+            </div>
+            <div class="right">
+                <h2>CNC obrábacie centrum HAAS VF-2SSYT 4-osé</h2>
+                <h4>posuvy</h4>
+                <p><span>X</span> 762 mm</p> <br>
+                <p><span>Y</span> 508 mm</p> <br> 
+                <p><span>Z</span> 508 mm</p> <br>
+
+                <h4>Výmeník nástrojov</h4>
+                <p>30 pozícií</p>
+
+
+            </div>
+
+        </div>
+        <div class="laser">
+            <div class="left">
+                <img src="images/DSC04286.jpg" alt="">
+
+            </div>
+            <div class="right">
+                <h2>CFiber laser Raycus 30W 200*200mm</h2>
+                
+
+
+            </div>
+            
+
+        </div>
+        <div class="print">
+            <div class="left">
+                <img src="images/tla4.png" alt="">
+
+            </div>
+            <div class="right">
+                <<h2>3D tlačiareň Bambu Lab X1 Carbon</h2>
+                <h4>Technológia 3D tlače:</h4>
+                <p>FFF (Fused Filament Fabrication)</p>
+
+                <h4>Tlačový objem:</h4>
+                <p>256 x 256 x 256 mm</p>
+
+                <h4>Tlačené materiály:</h4>
+                <p>PLA, PETG, TPU, PVA, ABS, ASA, PA, PC, Carbon/ Glass Fiber Reinforced Polymer</p>
+
+            </div>
+        </div>
+        <div class="optimus">
+            <div class="left">
+                <img src="images/VYBORBAsaax.png" alt="">
+
+            </div>
+            <div class="right">
+                <<h2>Pásová píla Optimum</h2>
+                
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="Fright">
+            <ul>
+                <li><a href="">DOMOV</a></li>
+                <li><a href="">O NÁS</a></li>
+                <li><a href="">SLUŽBY</a></li>
+                <li><a href="">TECHNOLÓGIE</a></li>
+                <li><a href="">KONTAKT</a></li>
+            </ul>
+            
+        </div>
+        <div class="Fleft">
+            <img src="images/Connect plus_logo2.png" alt="">
+            <h3>Marek Gavorník</h3>
+            <p>info@connectplus.eu</p>
+            <p class="needed">+421 911 972 684</p>
+            <p>CONNECT PLUS s.r.o.</p>
+            <p>Hlavná 628, ŠPAČINCE 919 51</p>
+
+        </div>
+    </footer>
+    <script src="script/mobileMenu.js"></script>
+    <script>
+        let list1 = document.getElementsByClassName('lists')
+
+        list1[3].style.borderBottom = '1px solid black'
+    </script>
     
 </body>
 </html>

@@ -607,8 +607,8 @@ a {
 	}
 
 	#header img {
-		width: 120px;
-		height: 30px;
+		width: 1ž0px;
+		height: 50px;
 	}
 
 	#header ul {
@@ -620,11 +620,14 @@ a {
 
 	#header ul li {
 		font-family: "Montserrat";
-		font-size: 15px;
+		font-size: 18px;
 	}
 
-	.mobileMenu,
 	.hamburger {
+		display: none;
+	}
+
+	.mobileMenu {
 		display: none;
 	}
 
