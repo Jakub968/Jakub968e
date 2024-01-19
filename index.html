@@ -2,185 +2,255 @@
 <html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Home</title>
-</head>
-<body>
-    
-    <header id="header">
-        <img id="logo" src="images/Connect plus_logo2.png" alt="">
-        <img class="hamburger" src="images/hamburger-menu.png" alt="">
+    <title>Domov</title>
 
+    <script defer src="script/app.js"></script>
+</head>
+<body onload="animation()">
+    <div id="loadingScreen">
+        <svg id="Layer_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
+            <path class="path2" d="M309.84,684.43h-149.77c-37.19,0-65.68-6.37-85.5-19.1-19.8-12.73-29.71-33.05-29.71-60.94s9.91-47.6,29.71-60.33c19.81-12.73,48.31-19.1,85.5-19.1h64.57v-36.99h-50.01c-33.96,0-60.33-6.46-79.13-19.4-18.8-12.94-28.19-32.14-28.19-57.6s9.4-45.17,28.19-57.91c18.8-12.73,45.17-19.1,79.13-19.1h135.21l7.13-.65c6.92,0,5.19.51,13.75.51s15.66.08,23.99.08v-36.93h-183.12c-47.3,0-83.98,9.5-110.05,28.5-26.07,19.01-39.11,45.88-39.11,80.64,0,23.04,5.36,42.44,16.07,58.21,10.71,15.76,25.27,27.69,43.66,35.78,1.71.75,3.45,1.43,5.18,2.11-8.98,1.99-17.4,4.6-25.19,7.89-19.6,8.29-34.86,20.62-45.78,36.99-10.91,16.37-16.37,36.68-16.37,60.94,0,35.98,13.24,63.87,39.72,83.68,26.48,19.81,66.4,29.71,119.75,29.71h195.24v-37.12" />
+            <path class="path2" d="M468.46,490.28h124.57v37.96h-124.57v-37.96Z" />
+            <path class="path2" d="M746.24,297.65l291.06,366.38h-19.28v-366.38h43.99v421.82s-36.76,0-36.76,0l-278.4-358.35" />
+            <path class="path2" d="M398.83,297.64h249.24v37.96h-249.24v-37.96Z" />
+            <path class="path2" d="M359.02,297.08v423.82s-42.08,0-42.08,0v-423.82s42.08,0,42.08,0Z" />
+            <path class="path2" d="M420.02,684.8h221.02v37.96h-221.02v-37.96Z" />
+            <path class="path2" d="M747.2,298.01v425.16s-43.94,0-43.94,0v-425.16s43.94,0,43.94,0Z" />
+          </svg>
+    </div>
+   
+    <header id="header">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1062 765.07">
+            <path class="path1" d="M309.84,684.43h-149.77c-37.19,0-65.68-6.37-85.5-19.1-19.8-12.73-29.71-33.05-29.71-60.94s9.91-47.6,29.71-60.33c19.81-12.73,48.31-19.1,85.5-19.1h64.57v-36.99h-50.01c-33.96,0-60.33-6.46-79.13-19.4-18.8-12.94-28.19-32.14-28.19-57.6s9.4-45.17,28.19-57.91c18.8-12.73,45.17-19.1,79.13-19.1h135.21l7.13-.65c6.92,0,5.19.51,13.75.51s15.66.08,23.99.08v-36.93h-183.12c-47.3,0-83.98,9.5-110.05,28.5-26.07,19.01-39.11,45.88-39.11,80.64,0,23.04,5.36,42.44,16.07,58.21,10.71,15.76,25.27,27.69,43.66,35.78,1.71.75,3.45,1.43,5.18,2.11-8.98,1.99-17.4,4.6-25.19,7.89-19.6,8.29-34.86,20.62-45.78,36.99-10.91,16.37-16.37,36.68-16.37,60.94,0,35.98,13.24,63.87,39.72,83.68,26.48,19.81,66.4,29.71,119.75,29.71h195.24v-37.12" />
+            <path class="path1" d="M468.46,490.28h124.57v37.96h-124.57v-37.96Z" />
+            <path class="path1" d="M746.24,297.65l291.06,366.38h-19.28v-366.38h43.99v421.82s-36.76,0-36.76,0l-278.4-358.35" />
+            <path class="path1" d="M398.83,297.64h249.24v37.96h-249.24v-37.96Z" />
+            <path class="path1" d="M359.02,297.08v423.82s-42.08,0-42.08,0v-423.82s42.08,0,42.08,0Z" />
+            <path class="path1" d="M420.02,684.8h221.02v37.96h-221.02v-37.96Z" />
+            <path class="path1" d="M747.2,298.01v425.16s-43.94,0-43.94,0v-425.16s43.94,0,43.94,0Z" />
+          </svg>
         <ul>
-            <li >
-                <a class="lists" href="">Domov</a>
-            </li>
-            <li >
-                <a class="lists" href="about.html">O nás</a>
-            </li>
-            <li>
-                <a class="lists" href="services.html">Služby</a>
-            </li>
-            <li>
-                <a class="lists" href="technology.html">Technológie</a>
-            </li>
-            <li>
-                <a class="lists" href="contact.html">Kontakt</a>
-            </li>
+            <a href="" class="hidden-left"><li>Domov</li></a>
+            <a href="" class="hidden-left"><li>O nás</li></a>
+            <a href="" class="hidden-left"><li>Služby</li></a>
+            <a href="" class="hidden-left"><li>Portfólio</li></a>
+            <a href="" class="hidden-left"><li>Kontakt</li></a>
         </ul>
 
-      
-
     </header>
-    <div class="mobileMenu">
-        <img class="X" src="images/white-x-png-5.png" alt="">
+    <div id="main">
+        <img class="hidden" src="images/c.png" alt="">
+        <h1 class="hidden-left">ROBIME X PRE Y ABY SI 
+            MOHOL ROBIT Z BEZ X</h1>
+            <h4 class="hidden">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing</h4>
 
-        <p><a href="">Domov</a></p>
-        <p><a href="about.html">O nás</a></p>
-        <p><a href="services.html">Služby</a></p>
-        <p><a href="technology.html">Technológie</a></p>
-        <p><a href="contact.html">Kontakt</a></p>
-     </div>
-    <div id="banner">
-        <div class="banner-cover">
-            <h2>engineering / manufacturing</h2>
-            <h3>návrh a výroba montážnych prípravkov, JIG-ov, toolingov
-                sériová výroba komponentov, už od jedného kusa</h3>
-            <p>výroba z materálov:  zmesi hliníka, technické plasty, sklotextit (FR4), oceľ, nerez...</p>
-            <h3>CONNECT PLUS s.r.o.</h3>
+            <a href="" ><div class="hidden-left"> <p>Napíšte nám mail</p></div></a>
 
+    </div>
+    <div id="solution">
+        <div class="solution-left">
+             <video class="hidden" controls src="images/final2.mp4"></video>
         </div>
-        <video autoplay loop muted id="pcd" class="pc" width="100%"  >
-            <source src="images/Sequence 02.mp4" type="video/mp4">
-        </video>
-        <video autoplay loop muted  class="mobile" width="100%"  src="images/TELEFON VERZIA.mp4"   ></video>
+        <div class="solution-right">
+            <h2 class="hidden">Problem/Solution heading</h2>
+            <h6 class="hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime vel pariatur nesciunt amet possimus ipsum dolore!</h6>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi enim amet rem sunt a impedit cumque doloremque vero! Laboriosam nemo dicta quo perferendis laudantium cum nesciunt exercitationem id maxime odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos exercitationem adipisci, suscipit ad autem asperiores, tempore eum sunt error repudiandae doloremque alias! Sequi minima delectus nihil nesciunt sint. Ratione, eum.</p>
+        </div>
+
+    </div>
+    <div id="rewievs">
+        <div>
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay ">Johny Perfecto</h4>
+        </div>
+        <div >
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay1">Johny Perfecto</h4>
+        </div>
+        <div >
+            <img class="hidden " src="images/stars.png" alt="">
+            <p class="hidden delay2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, dicta, fuga, temporibus nostrum laborum obcaecati ducimus porro numquam fugit culpa maxime amet! Ratione ducimus officia dolorum sit sint itaque dignissimos.lore </p>
+            <h4 class="hidden-left delay2">Johny Perfecto</h4>
+        </div>
 
     </div>
     <div id="services">
-        <div class="container">
-            <h1 class="servicesH1">Služby</h1>
-            <div class="lineOne"></div>
+        <div class="services-left">
+            <h4 class="hidden">Problem/Solution heading</h4>
+            <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat reprehenderit perferendis earum alias sit, quia eius </p>
+
+            <a href=""><div class="hidden"> <p>Napíšte nám mail</p></div></a>
 
         </div>
-        <div class="container2">
-            <div class="box box1">
-                <h2>Kusová a sériová CNC výroba </h2>
-                <p>Výroba dielcov  od jedného kusa až po série. </p>
-                <div class="bcCover"></div>
+        <div class="services-right">
+            <div class="box">
+                <div class="icon icon1 hidden-left"></div>
+                <h4 class="hidden-left">tvorba webu</h4>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aut, mollitia eveniet quasi officia tenetur consequuntur beatae ut ratione itaque </p>
+                <a class="hidden-left" href="">VIAC</a>
 
             </div>
-
-            <div class="box box2">
-                <h2>CAD dizajn</h2>
-                <p>Návrh komponentov, zostáv, a jednoúčelových zariadení.</p>
-                <div class="bcCover"></div>
+            <div class="box">
+                <div class="icon icon2 hidden-left"></div>
+                <h4 class="hidden-left">tvorba webu</h4>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aut, mollitia eveniet quasi officia tenetur consequuntur beatae ut ratione itaque </p>
+                <a class="hidden-left" href="">VIAC</a>
 
             </div>
-            <div class="box box3" >
-                <h2>Laserové gravírovanie a 3D tlač </h2>
-                <p>Značenie laserov na rôzne materiály. 
-                    Kvalitná  zákazková 3D tlač.</p>
-                <div class="bcCover"></div>
+            <div class="box">
+                <div class="icon icon3 hidden-left"></div>
+                <h4 class="hidden-left">tvorba webu</h4>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aut, mollitia eveniet quasi officia tenetur consequuntur beatae ut ratione itaque </p>
+                <a class="hidden-left" href="">VIAC</a>
+
+            </div>
+            <div class="box">
+                <div class="icon icon4 hidden-left"></div>
+                <h4 class="hidden-left">tvorba webu</h4>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, aut, mollitia eveniet quasi officia tenetur consequuntur beatae ut ratione itaque </p>
+                <a class="hidden-left" href="">VIAC</a>
 
             </div>
 
         </div>
+
+    </div>
+    <div id="benefits">
+        <div class="benefits-box">
+            <img class="hidden-left" src="images/icon1.png" alt="">
+            <p class="num hidden">1</p>
+            <h4 class="hidden-left">Feature 1</h4>
+            <p class="hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, deleniti iure tempore voluptas animi sunt modi minima a,</p>
+
+        </div>
+        <div class="benefits-box">
+            <img class="hidden-left" src="images/icon2.png" alt="">
+            <p class="num hidden">2</p>
+            <h4 class="hidden-left">Feature 2</h4>
+            <p class="hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, deleniti iure tempore voluptas animi sunt modi minima a,</p>
+
+        </div>
+        <div class="benefits-box">
+            <img class="hidden-left" src="images/icon3.png" alt="">
+            <p class="num hidden">3</p>
+            <h4 class="hidden-left">Feature 3</h4>
+            <p class="hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, deleniti iure tempore voluptas animi sunt modi minima a,</p>
+
+        </div>
+       
 
     </div>
     <div id="about">
-        <div class="box-about">
-            <h1 class="aboutH1">
-                O nás
-            </h1>
-            <div class="line2"> </div>
+        <div class="about-left">
+            <h4 class="hidden-left">O nás</h4>
+            <h6 class="hidden">Digitálna Produkcia</h6>
+            <p class="hidden-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis nobis itaque possimus illo distinctio vel, qui error, exercitationem suscipit adipisci voluptate. Similique pariatur, consectetur maxime placeat quae fugit aperiam!  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br><br>Dignissimos ex molestias rerum omnis? Facere id quasi labore praesentium, doloribus et explicabo tempore voluptas dolores eaque ipsa veritatis soluta, quisquam ea.</p>
+            <a class="hidden" href="">VIAC</a>
+
 
         </div>
-        <div class="box-about2">
-            <p>Naša hlavná činnosť pozostáva zo zákazkovej kusovej a sériovej výroby pre rôzne odvetvia, hlavne však pre elektropriemysel. V prípade požiadavky aj navrhneme, vyrobíme a zmontujeme podľa zadania.
-
-                20 ročné skúsenosti z praxe v tejto oblasti výrazne pomáhajú porozumieť požiadavkám a navrhnúť ideálne riešenie.</p>
-            <div></div>
+        <div class="about-right">
 
         </div>
-        <p class="link"><a href="">Viac o nás</a></p>
+
 
     </div>
-    <div id="technology">
-        <div class="cover">
-            <h1>Technológie</h1>
-            <p>
-                CNC obrábacie centrum HAAS VF2-SSYT 4-osé <br><br>
-                Fiber laser Raycus 30W 200*200mm  <br><br>
-                3D tlačiareň Bambu Lab X1 Carbon <br><br>
-                Pásová píla Optimum <br><br>
-
-            </p>
+    <div id="portfolio">
+        <div class="project1 project">
+            <div class="portfolio-left">
+                <img class="hidden" src="images/Untitled-3.jpg" alt="">
+            </div>
+            <div class="portfolio-right">
+                <h4 class="hidden">Autospa Detailing</h4>
+                <h6 class="hidden">Web</h6>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis provident, ad omnis quo sapiente doloremque. Omnis, ducimus distinctio sapiente fugit voluptatum magnam corporis recusandae, repellat reprehenderit numquam vitae quia ipsum?</p>
+                <a class="hidden" href=""><div><p>Viac</p></div></a>
+            </div>
 
         </div>
+        <div class="project2 project">
+            <div class="portfolio-left">
+                <img class="hidden" src="images/Untitled-5.jpg" alt="">
+            </div>
+            <div class="portfolio-right">
+                <h4 class="hidden">Autospa Detailing</h4>
+                <h6 class="hidden">Web</h6>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis provident, ad omnis quo sapiente doloremque. Omnis, ducimus distinctio sapiente fugit voluptatum magnam corporis recusandae, repellat reprehenderit numquam vitae quia ipsum?</p>
+                <a class="hidden" href=""><div><p>Viac</p></div></a>
+            </div>
+        </div>
+        <div class="project3 project">
+            <div class="portfolio-left">
+                <img class="hidden" src="images/Untitled-6.jpg" alt="">
+            </div>
+            <div class="portfolio-right">
+                <h4 class="hidden">Autospa Detailing</h4>
+                <h6 class="hidden">Web</h6>
+                <p class="hidden-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis provident, ad omnis quo sapiente doloremque. Omnis, ducimus distinctio sapiente fugit voluptatum magnam corporis recusandae, repellat reprehenderit numquam vitae quia ipsum?</p>
+                <a class="hidden" href=""><div><p>Viac</p></div></a>
+            </div>
+        </div>
+
 
     </div>
-    <div id="photogalery">
-        <div class="box-photogalery">
-            <h1>
-                Fotogaléria
-            </h1>
-            <div> </div>
+    <div id="footer">
+        <div class="top-footer">
+            <img src="images/c.png" alt="">
         </div>
-        <div class="box-photos">
-            <div class="photo photo1"> <p class="text1">popis produktu</p></div>
-            <div class="photo photo2" ><p class="text2">popis produktu</p></div>
-            <div class="photo photo3" ><p class="text3">popis produktu</p></div>
-            <div class="photo photo4" ><p class="text4">popis produktu</p></div>
-            <div class="photo photo5" ><p class="text5">popis produktu</p></div>
-            <div class="photo photo6" ><p class="text6">popis produktu</p></div>
-            <div class="photo photo7" ><p class="text7">popis produktu</p></div>
-            <div class="photo photo8" ><p class="text8">popis produktu</p></div>
+        <div class="mid-footer">
+            <div class="mid-left">
+                <h6>Jakub Gerer - Bentrace <br>
+                    Jakub Benický
+                </h6>
+                <p>
+                    IČO: 09238410 <br><br>
+                    DIČ: 03945322 <br><br>
+                    Ráztoka 113, 976 97 <br><br><br><br>
+                    0908 937 658 <br><br>
+                    info@bentrace.com
+                </p>
 
-        </div>
+            </div>
+            <div class="mid-mid">
+                <h6>Podstránky</h6>
 
-    </div>
-    <footer id="footer">
-        <div class="right">
-            <ul>
-                <li><a href="">DOMOV</a></li>
-                <li><a href="">O NÁS</a></li>
-                <li><a href="">SLUŽBY</a></li>
-                <li><a href="">TECHNOLÓGIE</a></li>
-                <li><a href="">KONTAKT</a></li>
-            </ul>
+                <a href="">Domov</a>
+                <a href="">O nás</a>
+                <a href="">Služby</a>
+                <a href="">Portfólio</a>
+                <a href="">kontakt</a>
+            </div>
+            <div class="mid-right">
+                <h6>Info</h6>
+
+                <a href="">GDPR</a>
+                <a href="">Obchodné podmienky</a>
             
-        </div>
-        <div class="left">
-            <img src="images/Connect plus_logo2.png" alt="">
-            <h3>Marek Gavorník</h3>
-            <p>info@connectplus.eu</p>
-            <p class="needed">+421 911 972 684</p>
-            <p>CONNECT PLUS s.r.o.</p>
-            <p>Hlavná 628, ŠPAČINCE 919 51</p>
+            </div>
+            </div>
 
         </div>
-    </footer>
-    <script src="script/scrollAnimation.js"></script>
-    <script src="script/script.js"></script>
-    <!-- <script src="script/header.js"></script> -->
-    <script>
-        let list1 = document.getElementsByClassName('lists')
+        <div class="bottom-footer">
+            <p>compyrights@ vyhradené pre ben-trace.com / Vytvoril a nadizajnoval Bentrace</p>
+        </div>
 
-        list1[0].style.borderBottom = '1px solid black'
-    </script>
+    </div>
    
-    <script src="script/mobileMenu.js"></script>
 
+   
+    <script src="script/logo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script>
-        
+        const loaderContainer = document.querySelector('#loadingScreen')
+
+        window.addEventListener('load', () => {
+            loaderContainer.classList.add('notVisible')
+        })
+
     </script>
-    
 </body>
 </html>
-
-
-
-
-
