@@ -492,7 +492,7 @@ a {
 	.hamburger{
 		display: none;
 	}
-    
+
     #main{
         width: 100%;
         min-height: 100vh;
@@ -513,6 +513,9 @@ a {
     
     .logo{
         height: 90%;
+    }
+    .X{
+        display: none;
     }
     
     #header ul{
