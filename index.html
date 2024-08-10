@@ -23,20 +23,20 @@
         <header id="header">
             <img class="logo" src="assets/images/pva_hydrospol_logo-01.svg" alt="">
             <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Products</li></a>
-                <a href=""><li>Distribuition</li></a>
-                <a href=""><li>Contact</li></a>
+                <a class="hidden" href=""><li>Home</li></a>
+                <a class="hidden delay1" href=""><li>About</li></a>
+                <a class="hidden delay1" href=""><li>Products</li></a>
+                <a class="hidden delay2" href=""><li>Distribuition</li></a>
+                <a class="hidden delay2" href=""><li>Contact</li></a>
             </ul>
             <img onclick="menuMobileShow()" class="hamburger" src="assets/images/hamburger-01.png" alt="">
 
         </header>
 
         <div class="main-box">
-            <h1>HLAVNY TEXT STRANKY</h1>
-            <h3>PVA Hydrospol</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem architecto voluptas consectetur qui dicta ut doloremque ducimus corrupti officia modi! Porro nobis quis quas neque, id labore aspernatur repellendus quos!</p>
+            <h1 class="hidden">HLAVNY TEXT STRANKY</h1>
+            <h3 class="hidden delay1">PVA Hydrospol</h3>
+            <p class="hidden delay2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem architecto voluptas consectetur qui dicta ut doloremque ducimus corrupti officia modi! Porro nobis quis quas neque, id labore aspernatur repellendus quos!</p>
 
             <div>
                 <a href=""><img src="assets/images/fb.png" alt=""></a>
@@ -52,12 +52,12 @@
             </div>
         </div>
         <div class="about-right">
-            <h3>About Us</h3>
-            <h2>HLAVNY TEXT STRANKY</h2>
-            <p class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem architecto voluptas consectetur qui dicta ut doloremque ducimus corrupti officia modi! Porro nobis quis quas neque, id labore aspernatur repellendus quos!
+            <h3 class="hidden">About Us</h3>
+            <h2 class="hidden">HLAVNY TEXT STRANKY</h2>
+            <p  class="about-text hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem architecto voluptas consectetur qui dicta ut doloremque ducimus corrupti officia modi! Porro nobis quis quas neque, id labore aspernatur repellendus quos!
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem architecto voluptas consectetur qui dicta ut doloremque ducimus corrupti officia modi! Porro nobis quis quas neque, id labore aspernatur repellendus quos!
             </p>
-            <div class="about-right-box">
+            <div class="about-right-box hidden">
                 <div>
                     <h5>10+</h5>
                     <p>Rokov Na Trhu</p>
@@ -78,7 +78,7 @@
         <span></span>
     </div>
     <div id="products">
-        <div class="product">
+        <div class="product hidden">
             <div class="product-img"> </div>
             <div class="product-info">
                 <h3>Hack</h3>
@@ -88,7 +88,7 @@
                 <a href=""><div class="button"><p>VIAC</p></div></a>
             </div>
         </div>
-        <div class="product">
+        <div class="product hidden-left">
             <div class="product-img"> </div>
             <div class="product-info">
                 <h3>Hack</h3>
@@ -98,7 +98,7 @@
                 <a href=""><div class="button"><p>VIAC</p></div></a>
             </div>
         </div>
-        <div class="product">
+        <div class="product hidden">
             <div class="product-img"> </div>
             <div class="product-info">
                 <h3>Hack</h3>
@@ -108,7 +108,7 @@
                 <a href=""><div class="button"><p>VIAC</p></div></a>
             </div>
         </div>
-        <div class="product">
+        <div class="product hidden-left">
             <div class="product-img"> </div>
             <div class="product-info">
                 <h3>Hack</h3>
@@ -118,7 +118,7 @@
                 <a href=""><div class="button"><p>VIAC</p></div></a>
             </div>
         </div>
-        <div class="product">
+        <div class="product hidden">
             <div class="product-img"> </div>
             <div class="product-info">
                 <h3>Hack</h3>
@@ -423,6 +423,7 @@
 
     <script src="assets/script/coutryInfo.js"></script>
     <script src="assets/script/mobileMenu.js"></script>
+    <script src="assets/script/app.js"></script>
     <script>
 
         let interactive = document.getElementsByClassName('interactive')
