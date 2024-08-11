@@ -305,12 +305,12 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 0 0 50px;
+        padding: 0 0 0 30px;
     }
     
     .product-info h3{
         font-family: "montserrat", sans-serif;
-        font-size: 30px;
+        font-size: 20px;
         color: rgb(255, 0, 153);
         font-weight: 400;
     }
@@ -326,7 +326,7 @@ a {
     
     .button{
         width: 150px;
-        height: 50px;
+        height: 40px;
         background-color: rgb(255, 0, 153);
         display: flex;
         justify-content: center;
