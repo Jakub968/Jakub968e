@@ -7,7 +7,7 @@ for (let i = 0; i < 5; i++) {
         meshTube[i].style.opacity = '0'
         meshTube[i].style.transform = 'translateY(-100px)'
         refil[i].style.opacity = '1'
-        refil[i].style.transform = 'translateY(100px)'
+        refil[i].style.transform = 'translateY(50px)'
     })
 
     refilMeshBox[i].addEventListener('mouseout', ()=>{
