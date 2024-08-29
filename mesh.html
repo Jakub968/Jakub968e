@@ -295,7 +295,19 @@
 
     </footer>
     <script src="assets/script/app.js"></script>
-    <script src="assets/script/mobilemenu.js"></script>
+    <script>
+        let menuMobile = document.getElementsByClassName('mobileMenu')
+
+        function menuMobileHide() {
+            menuMobile[0].style.left = '100%'
+            menuMobile[0].style.opacity = '0'
+        }
+
+        function menuMobileShow() {
+            menuMobile[0].style.left = '0%'
+            menuMobile[0].style.opacity = '1'
+        }
+    </script>
     <script src="assets/script/mesh.js"></script>
     <script src="assets/script/refilAnimation.js"></script>
 </body>
