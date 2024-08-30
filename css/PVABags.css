@@ -985,7 +985,7 @@ a {
 	}
 	
 	.main-left img {
-		max-height: 40vh;
+		max-height: 70vh;
 		transition: 0.4s ease;
 		position: absolute;
 		top: 50%;
@@ -994,11 +994,12 @@ a {
 
 	.main-left img:nth-child(1){
 		left: 19%;
-		top: 60%;
 	}
 	.main-left img:nth-child(2){
-		left: 40%;
-		top: 40%;
+		left: 27%;
+	}
+	.main-left img:nth-child(3){
+		left: 23%;
 	}
 
 	.meshes{
