@@ -1,4 +1,5 @@
 let mesh = document.getElementsByClassName('mesh')
+
 if (document.body.offsetWidth > 1025) {
     mesh[4].addEventListener('mouseover', ()=>{
         mesh[0].style.left = '5%'
