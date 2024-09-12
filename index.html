@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/images/icon-logo.jpg">
+    <title>4YourBiz</title>
+</head>
+<body onload="mainAnimation()">
+    <header id="header">
+        <img class="hidden" src="assets/images/logo.png" alt="logo Help and Future">
+        <a class="hidden-left" href="registracia.html"><div><p>rezervovať</p></div></a>
+
+    </header>
+    <main id="main">
+        <div class="box1">
+            <h1 id="h1">Ako is nezničiť podnikanie,  <span style="color: #c7b27b;">alebo</span> najrýchlejšia <br> cesta k finančnej istote</h1>
+        </div>
+        <div class="box2">
+            <iframe src="https://www.youtube.com/embed/kRZxE3khYdM?si=di5eu8R43NsIjXdR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+        </div>
+        <div class="box3">
+            <h2 class="bottom-animation">Rezervuj si miesto</h2>
+            <a class="bottom-animation" href="registracia.html">a získaj 7 dňový bezplatný prístup</a>
+            <h4 class="bottom-animation">Už čoskoro spúšťame</h4>
+            <img src="assets/images/logo.png" alt="logo 4YourBiz">
+        </div>
+    </main>
+
+    <script src="assets/script/transition.js"></script>
+    <script>
+        let h1 = document.getElementById('h1')
+
+        function mainAnimation() {
+            h1.style.opacity = '1'
+            h1.style.transform = 'translatey(0)'
+            h1.style.filter = 'blur(0px)'
+        }
+    </script>
+    
+</body>
+</html>
