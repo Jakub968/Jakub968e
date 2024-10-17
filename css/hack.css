@@ -378,6 +378,20 @@ a {
 	
 	}
 
+	#text{
+		width: 100%;
+		padding: 0 10%;
+		margin: 10vh 0 5vh;
+	}
+
+	#text p{
+		font-family: "montserrat", sans-serif;
+		color: rgb(224, 224, 224);
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+	}
+
 
 	.distribution-manufacturing-h1{
 		max-width: 100%;
@@ -736,7 +750,7 @@ a {
 	}
 	
 	#video{
-		height: 70vh;
+		height: 50vh;
 		box-shadow: 0 0 10px black;
 	}
 	
@@ -827,6 +841,20 @@ a {
 	.video4{
 		background-image: url(../assets/images/KRIMI3.jpg);
 	
+	}
+
+	#text{
+		width: 100%;
+		padding: 0 10%;
+		margin: 10vh 0 5vh;
+	}
+
+	#text p{
+		font-family: "montserrat", sans-serif;
+		color: rgb(224, 224, 224);
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
 	}
 
 	.distribution-manufacturing-h1{
@@ -1260,6 +1288,20 @@ a {
 	
 	}
 
+	#text{
+		width: 100%;
+		padding: 0 25%;
+		margin: 10vh 0;
+	}
+
+	#text p{
+		font-family: "montserrat", sans-serif;
+		color: rgb(224, 224, 224);
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+	}
+
 	.distribution-manufacturing-h1{
 		width: 100%;
 		display: flex;
@@ -1683,6 +1725,20 @@ a {
 	.video4{
 		background-image: url(../assets/images/KRIMI3.jpg);
 	
+	}
+
+	#text{
+		width: 100%;
+		padding: 0 25%;
+		margin: 10vh 0;
+	}
+
+	#text p{
+		font-family: "montserrat", sans-serif;
+		color: rgb(224, 224, 224);
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
 	}
 
 	.distribution-manufacturing-h1{
